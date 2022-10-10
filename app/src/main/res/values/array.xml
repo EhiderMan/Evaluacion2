@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sx">
+        <item>Seleccione Sexo</item>
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+    <string-array name="stats">
+        <item>Seleccione Status</item>
+        <item>ACTIVO</item>
+        <item>INACTIVO</item>
+    </string-array>
+
+    <string-array name="op_especies">
+        <item>Seleccione Animalito</item>
+        <item>Perros</item>
+        <item>Aves</item>
+        <item>Gatos</item>
+    </string-array>
+    <string-array name="op_habitats">
+        <item>Seleccione Tamaño</item>
+        <item>Chico</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </string-array>
+</resources>

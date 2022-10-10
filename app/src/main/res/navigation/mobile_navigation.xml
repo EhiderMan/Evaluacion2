@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.proyecto.monadoptions.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_atlas"
+        android:name="com.proyecto.monadoptions.ui.atlas.AtlasFragment"
+        android:label="@string/menu_atlas"
+        tools:layout="@layout/fragment_atlas" />
+
+    <fragment
+        android:id="@+id/nav_buscar"
+        android:name="com.proyecto.monadoptions.ui.buscar.BuscarFragment"
+        android:label="@string/menu_buscar"
+        tools:layout="@layout/fragment_buscar" />
+    <fragment
+        android:id="@+id/nav_editar"
+        android:name="com.proyecto.monadoptions.ui.editar.EditarFragment"
+        android:label="@string/menu_editar"
+        tools:layout="@layout/fragment_editar" />
+    <fragment
+        android:id="@+id/nav_eliminar"
+        android:name="com.proyecto.monadoptions.ui.eliminar.EliminarFragment"
+        android:label="@string/menu_eliminar"
+        tools:layout="@layout/fragment_eliminar" />
+
+    <fragment
+        android:id="@+id/nav_listaract"
+        android:name="com.proyecto.monadoptions.ui.listactives.ListActivosFragment"
+        android:label="@string/menu_listarAct"
+        tools:layout="@layout/fragment_list_activos" />
+
+    <fragment
+        android:id="@+id/nav_listarinact"
+        android:name="com.proyecto.monadoptions.ui.listarinactivo.ListarInactivoFragment"
+        android:label="@string/menu_listarInact"
+        tools:layout="@layout/fragment_listar_inactivo" />
+
+    <fragment
+        android:id="@+id/nav_creditos"
+        android:name="com.proyecto.monadoptions.ui.creditos.CreditosFragment"
+        android:label="@string/menu_creditos"
+        tools:layout="@layout/fragment_creditos" />
+</navigation>

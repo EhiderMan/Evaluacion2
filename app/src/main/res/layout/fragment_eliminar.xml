@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.eliminar.EliminarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/eliminar"
+            android:textSize="30sp"/>
+        <ImageView
+            android:id="@+id/iVFotoEL"
+            android:layout_width="196dp"
+            android:layout_height="171dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ieliminar"
+            android:contentDescription="@string/todo" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/ida">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tIEtIDEL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/btnBuscarEL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buscar"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tVEspecieEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/especiea"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVNombrepEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombrea"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVSexoEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sexo"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVPesoEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/peso"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVFechapEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fechaa"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVHabitatEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Habitata"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVEdoEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estadoa"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVStatusEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textSize="25sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/btnEliminarPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/eliminarfis"
+                android:textSize="13dp"
+                />
+            <Button
+                android:id="@+id/btnEliminarLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/eliminarlog"
+                android:textSize="13dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+
+            <Button
+                android:id="@+id/btnLimpiarEL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/limpiar"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

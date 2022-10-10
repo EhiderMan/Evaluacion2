@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ihome"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_atlas"
+            android:icon="@drawable/icreacion"
+            android:title="@string/menu_atlas" />
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@drawable/ibuscar"
+            android:title="@string/menu_buscar" />
+        <item
+            android:id="@+id/nav_editar"
+            android:icon="@drawable/ieditar"
+            android:title="@string/menu_editar" />
+        <item
+            android:id="@+id/nav_eliminar"
+            android:icon="@drawable/ieliminar"
+            android:title="@string/menu_eliminar" />
+        <item
+            android:id="@+id/nav_listaract"
+            android:icon="@drawable/ilistact"
+            android:title="@string/menu_listarAct" />
+        <item
+            android:id="@+id/nav_listarinact"
+            android:icon="@drawable/ilistact"
+            android:title="@string/menu_listarInact" />
+        <item
+            android:id="@+id/nav_creditos"
+            android:icon="@drawable/icreditos"
+            android:title="@string/menu_creditos" />
+    </group>
+</menu>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Mon Adoptions</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mon Adoptions</string>
+    <string name="nav_header_subtitle">Tecnológico de Toluca</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_atlas">Atlas (Creación)</string>
+    <string name="menu_buscar">Búscar</string>
+    <string name="menu_editar">Editar</string>
+    <string name="menu_eliminar">Eliminar</string>
+    <string name="menu_listarAct">Lista De Animales Activos</string>
+    <string name="menu_listarInact">Lista De Animales Inactivos</string>
+    <string name="menu_creditos">Creditos</string>
+
+    <string name="elvideo">Explicación de la APP</string>
+
+    <string name="nuevo">Animalito Nuevo</string>
+    <string name="ida">ID:</string>
+    <string name="nombrea">Nombre:</string>
+    <string name="fechaa">Fecha Nacimiento:</string>
+    <string name="estadoa">Estado general:</string>
+    <string name="peso">Peso:</string>
+
+    <string name="status">Status:</string>
+
+    <string name="limpiar">Limpiar</string>
+    <string name="guardar">Guardar</string>
+    <string name="buscar">Buscar</string>
+    <string name="todo">Imagen del Animal</string>
+
+    <string name="editar">Editar Animal</string>
+    <string name="eliminar">Eliminar Animal</string>
+    <string name="eliminarfis">Eliminación Permanente</string>
+    <string name="eliminarlog">Eliminación Lógica</string>
+    <string name="listarAct">Lista De Animales Activos</string>
+    <string name="listarInact">Lista De Animales Inactivos</string>
+
+
+    <string name="creditos">YO!</string>
+    <string name="universidad">Instituto Tecnológico de Toluca</string>
+    <string name="especialidad">Ingenieria en TICS</string>
+    <string name="alumno">Soy Montserrat Melgarejo Martinez.</string>
+    <string name="materia">Desarrollo de aplicaciones móviles</string>
+    <string name="profesor">Profesora M.C Rocio Elizabeth Pulido Alba</string>
+    <string name="fechaexam">10-Oct-2022</string>
+    <string name="contacto">IG: @mon</string>
+    <string name="versión">Version: 1.0</string>
+
+    <string name="especiea">Tipo de Animal:</string>
+    <string name="Habitata">Tamaño:</string>
+    <string name="sexo">Sexo:</string>
+
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

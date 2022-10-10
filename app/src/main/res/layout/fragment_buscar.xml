@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.buscar.BuscarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/buscar"
+            android:textSize="30sp"/>
+        <ImageView
+            android:id="@+id/iVFotoBus"
+            android:layout_width="196dp"
+            android:layout_height="171dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ibuscar"
+            android:contentDescription="@string/todo" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/ida">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tIEtIDBus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/btnBuscarBus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buscar"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tVEspecieBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/especiea"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVNombrepBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombrea"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVSexoBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sexo"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVPesoBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/peso"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVFechaBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fechaa"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVHabitatBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Habitata"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVEdoBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estadoa"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tVStatusBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textSize="25sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLimpiarBus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/limpiar"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
